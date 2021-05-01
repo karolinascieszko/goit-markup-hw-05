@@ -607,4 +607,57 @@ img {
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
 }
 
+.box {
+  position: relative;
+  width: 370px;
+  height: 294px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #bdbdbd;
+  /*box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+*/
+  overflow: hidden;
+}
+
+.box:hover .overlay {
+  transform: translatex(0);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(33, 150, 243, 0.9), rgba(33, 150, 243, 0.9));
+
+  transform: translatex(-100%);
+  transition: transform 250ms ease;
+}
+
+.overlay > p {
+  color: var(--font-on-dark-theme-color);
+  padding: 10px;
+  margin: 0;
+
+  position: absolute;
+  /*width: 301px;
+  height: 196px;
+  left: 239px;
+  top: 311px;*/
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.556;
+
+  letter-spacing: 0.03em;
+  padding-top: 49px;
+  padding-right: 45px;
+  padding-bottom: 49px;
+  padding-left: 24px;
+}
+
 /*===== END PORTFOLIO =====*/
