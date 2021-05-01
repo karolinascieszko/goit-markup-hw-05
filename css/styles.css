@@ -88,13 +88,12 @@ img {
   color: var(--main-font-color);
   fill: var(--font-in-description-color);
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-list-item-link:hover,
 .navigation-list-item-link:focus,
 .navigation-list-item-link:active,
-/*.contact-list-item-link:hover,
-.contact-list-item-link:focus,
-.contact-list-item-link:active,*/
 .modal-btn:hover,
 .modal-btn:focus,
 .modal-btn:active,
@@ -112,7 +111,6 @@ img {
 .contact-list-item-link {
   color: var(--font-in-description-color);
 }
-/*.hero,*/
 .footer {
   background-color: var(--background-color-dark);
 }
@@ -360,6 +358,8 @@ img {
   justify-content: center;
   margin-bottom: 30px;
   margin-left: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icon {
@@ -394,6 +394,8 @@ img {
   border-radius: 10%;
   align-items: center;
   justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
@@ -423,6 +425,8 @@ img {
   color: var(--font-on-dark-theme-color);
   text-decoration: none;
   padding-bottom: 9px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list-item-link-e-mail,
 .address-list-item-link-phone-number {
@@ -431,6 +435,8 @@ img {
   color: var(--font-contact-footer-color);
   text-decoration: none;
   padding-top: 9px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list {
   padding-top: 20px;
@@ -458,6 +464,8 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-item-dark-theme:not(:last-child) {
   padding-right: 10px;
@@ -484,6 +492,8 @@ img {
   padding: 6px 22px;
   color: transparent;
   border: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons-list-item:not(:last-child) {
   padding-right: 8px;
@@ -509,6 +519,10 @@ img {
 .buttons-list-item:focus {
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
 }
+.buttons-list-item {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .projects-list {
   display: flex;
@@ -519,6 +533,8 @@ img {
 .projects-list-item {
   border-bottom: 1px solid var(--border-color-cards);
   margin-bottom: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-list-item-name {
