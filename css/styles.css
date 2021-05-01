@@ -141,7 +141,7 @@ img {
   content: '';
   display: flex;
   position: absolute;
-  top: 76px;
+  top: 90px;
   height: 4px;
   width: 53px;
   border-radius: 2px;
@@ -166,6 +166,8 @@ img {
 .navigation-list {
   display: flex;
   align-items: center;
+  /*padding-top: 32px;
+  padding-bottom: 32px;*/
 }
 .navigation-list-item:not(:last-child) {
   margin-right: 46px;
@@ -198,6 +200,10 @@ img {
   fill: var(--main-color);
   color: var(--main-color);
 }
+/*.navigation-list-item-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}*/
 
 /*===== END HEADER =====*/
 
@@ -219,6 +225,7 @@ img {
   flex-direction: column;
   width: 1200px;
   justify-content: center;
+  align-items: center;
   padding-top: 200px;
   padding-right: 452px;
   padding-bottom: 200px;
