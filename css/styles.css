@@ -708,7 +708,7 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
-  transform: translate(-50%, -50%);
+
   width: 30px;
   height: 30px;
   background-color: #fff;
@@ -716,7 +716,6 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
