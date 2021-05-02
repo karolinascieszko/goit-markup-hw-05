@@ -134,8 +134,31 @@ img {
 ::selection {
   background-color: var(--background-color-selection);
 }
+.decoration::after {
+  content: '';
+  display: flex;
+  position: absolute;
+  top: 90px;
+  height: 4px;
+  width: 53px;
+  border-radius: 2px;
+  background-color: var(--main-color);
+  margin-right: 20px;
+}
 
-.navigation-list-item-link:hover::after,
+/*.navigation-list-item-link:active::after {
+  content: '';
+  display: flex;
+  position: absolute;
+  top: 90px;
+  height: 4px;
+  width: 53px;
+  border-radius: 2px;
+  background-color: var(--main-color);
+  margin-right: 20px;
+}*/
+
+/*.navigation-list-item-link:hover::after,
 .navigation-list-item-link:focus::after,
 .navigation-list-item-link:active::after {
   content: '';
@@ -147,7 +170,7 @@ img {
   border-radius: 2px;
   background-color: var(--main-color);
   margin-right: 20px;
-}
+}*/
 
 /*===== END COMPONENTS=====*/
 /*===== HEADER =====*/
