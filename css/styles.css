@@ -634,17 +634,13 @@ img {
 
 .overlay > .overlay-text {
   color: var(--font-on-dark-theme-color);
-  padding: 10px;
   margin: 0;
-
   position: absolute;
-
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.556;
-
   letter-spacing: 0.03em;
   padding-top: 49px;
   padding-right: 45px;
